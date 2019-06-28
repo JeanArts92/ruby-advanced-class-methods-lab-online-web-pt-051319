@@ -1,3 +1,5 @@
+require 'pry'
+
 class Song 
   attr_accessor :name
   
@@ -11,7 +13,6 @@ class Song
     song = self.new 
     @@all << self 
     song 
-    
   end 
     
   

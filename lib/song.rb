@@ -48,8 +48,8 @@ class Song
   def self.new_from_filename(file)
     song = file.split(" - ")
     data = song.collect do |datapoint|
-      name = datapoint[0]
-      artist_name = datapoint[1].gsub("mp3", "")
+      name = data[0]
+      artist_name = data[1].gsub("mp3", "")
       binding.pry 
     end 
   end 

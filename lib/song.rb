@@ -51,7 +51,7 @@ class Song
       name = d[0]
       artist_name = d[1].gsub("mp3", "")
     end 
-    #binding.pry 
+    binding.pry 
   end 
    
     

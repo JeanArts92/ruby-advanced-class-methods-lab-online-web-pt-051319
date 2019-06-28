@@ -9,13 +9,12 @@ class Song
     @@all 
   end 
   
-  def self.save 
-    self.all << self
-  end 
+  
   
   def self.create
     song = self.new 
-    song.save 
+    @@all << self 
+    song
     #binding.pry
   end 
     

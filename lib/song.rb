@@ -50,7 +50,8 @@ class Song
     data = song.collect do |d|
       name = d[0]
       artist_name = d[1].gsub("mp3", "")
-    binding.pry 
+    end 
+    #binding.pry 
   end 
    
     

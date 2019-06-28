@@ -14,7 +14,7 @@ class Song
   def self.create
     song = self.new 
     @@all << self 
-    song.name = name 
+    song
     #binding.pry
   end 
     

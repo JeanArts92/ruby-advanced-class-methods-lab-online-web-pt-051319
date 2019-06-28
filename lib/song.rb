@@ -1,6 +1,6 @@
 require 'pry'
 
-class Song 
+class Song
   attr_accessor :name
   
   @@all = []
@@ -14,7 +14,7 @@ class Song
   def self.create
     song = self.new 
     @@all << self 
-    song
+    song.name = name 
     #binding.pry
   end 
     

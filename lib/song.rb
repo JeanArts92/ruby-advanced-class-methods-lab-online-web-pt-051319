@@ -49,9 +49,10 @@ class Song
     song = file.split(" - ")
     data = song.collect do |d|
       name = data[0]
-      artist_name = d[1].gsub("mp3", "")
+      artist_name = data[1].gsub("mp3", "")
+      binding.pry 
     end 
-    binding.pry 
+    
   end 
    
     

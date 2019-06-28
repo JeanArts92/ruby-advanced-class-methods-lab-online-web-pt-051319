@@ -42,10 +42,9 @@ class Song
   end 
   
   def self.alphabetical 
-    
+    @@all.collect{|s| s.name.sort == s}
   end 
-    
-  
+   
     
   
 end 
